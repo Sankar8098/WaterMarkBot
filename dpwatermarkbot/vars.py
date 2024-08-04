@@ -18,7 +18,7 @@ class Vars:
     API_HASH = config("API_HASH", default="e6c4b6ee1933711bc4da9d7d17e1eb20")
     STREAMTAPE_API_PASS = config("STREAMTAPE_API_PASS", default="MeXggBZlGjtmvMD")
     STREAMTAPE_API_USERNAME = config("STREAMTAPE_API_USERNAME", default="2ff044f4502a6976ffa4")
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001870015374)) 
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=5821871362)) 
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/ !").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="@SK_MoviesOffl")
     AUTH_CHANNEL = config("AUTH_CHANNEL", default="@SK_MoviesOffl")
