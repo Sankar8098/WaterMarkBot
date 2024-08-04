@@ -28,7 +28,7 @@ class Vars:
     DB_URI = config("DB_URI", default=None)
     VERSION = config("VERSION", default="v1.1 - Stable")
     BOT_USERNAME = config("BOT_USERNAME", default="SK_AutoFilter_Bot")
-    STREAMTAPE_DEFAULT = config("STREAMTAPE_DEFAULT", default=None, cast=config.boolean)
+    STREAMTAPE_DEFAULT = config("STREAMTAPE_DEFAULT", default=False, cast=config.boolean)
     LIMIT_CPU = config("LIMIT_CPU", default=None, cast=config.boolean)
     LIMIT_USER_USAGE = config("JOIN_CHECK", default=None, cast=config.boolean)
     MAX_NON_JOIN_USAGE = config("MAX_NON_JOIN_USAGE", default=2)
