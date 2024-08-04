@@ -12,7 +12,7 @@ class Vars:
     WORKERS = int(config("WORKERS", default=16))
     DOWN_PATH = f"{getcwd()}/dpwatermarkbot/downloads"
     CACHE_TIME = int(config("CACHE_TIME", default=5))
-    BOT_TOKEN = config("7077611383:AAGUgA1efZJqYzULZOVOC15qAr0GAzoqHvU")
+    BOT_TOKEN = config("BOT_TOKEN", default="7077611383:AAGUgA1efZJqYzULZOVOC15qAr0GAzoqHvU")
     BOT_ID = BOT_TOKEN.split(":")[0]
     APP_ID = int(config("API_ID", default=23990433))
     API_HASH = config("e6c4b6ee1933711bc4da9d7d17e1eb20")
