@@ -25,7 +25,7 @@ class Vars:
     PRESET = config("PRESET", default="ultrafast")
     OWNER_ID = int(config("OWNER_ID", default=5821871362))
     CAPTION = config("CAPTION", default="By @SK_MoviesOffl")
-    DB_URI = config("DB_URI", default=None)
+    DB_URI = config("DB_URI", default="mongodb+srv://sankar:sankar@sankar.lldcdsx.mongodb.net/?retryWrites=true&w=majority")
     VERSION = config("VERSION", default="v1.1 - Stable")
     BOT_USERNAME = config("BOT_USERNAME", default="SK_AutoFilter_Bot")
     STREAMTAPE_DEFAULT = config("STREAMTAPE_DEFAULT", default=False, cast=config.boolean)
