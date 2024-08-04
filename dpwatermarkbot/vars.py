@@ -15,7 +15,7 @@ class Vars:
     BOT_TOKEN = config("BOT_TOKEN", default="7077611383:AAGUgA1efZJqYzULZOVOC15qAr0GAzoqHvU")
     BOT_ID = BOT_TOKEN.split(":")[0]
     APP_ID = int(config("API_ID", default=23990433))
-    API_HASH = config("e6c4b6ee1933711bc4da9d7d17e1eb20")
+    API_HASH = config("API_HASH", default="e6c4b6ee1933711bc4da9d7d17e1eb20")
     STREAMTAPE_API_PASS = config("STREAMTAPE_API_PASS")
     STREAMTAPE_API_USERNAME = config("STREAMTAPE_API_USERNAME")
     MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
